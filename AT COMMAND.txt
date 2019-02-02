@@ -1,0 +1,41 @@
+AT+ADDR?	//어드레스 출력
+AT+NAMEHM10_MASTER	//이름 설정
+AT+NAME?
+
+AT+ROLE?
+AT+ROLE0
+AT+ROLE1	//역할설정(1마스터, 0슬레이브)
+
+AT+BAUD?
+
+AT+MODE?
+AT+MODE0
+
+AT+ADTY?	
+
+AT+CONN?
+AT+DISC?
+	 //스캔
+AT+SHOW?
+AT+SHOW1
+
+AT+FILT?		//필터링 검색 1all 2/ only hm
+AT+FILT0
+AT+FILT1
+
+AT+IMME?  	//immediately power on
+AT+IMME0
+AT+IMME1
+
+AT+START
+
+AT+COL??
+
+AT+CONNL	//마지막연결 장치 재연결
+AT+RADD?	//마지막 연결장치 주소
+
+D43639DE43EE 드론 어드레스
+D43639DE43EE
+AT+COND43639DE43EE	//드론과 연결
+
+AT+COND43639D8898D //190202 드론 addr

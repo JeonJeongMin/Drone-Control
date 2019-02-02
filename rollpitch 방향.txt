@@ -1,0 +1,5 @@
+왼쪽 roll -
+오른쪽 roll +
+
+아래 pitch +
+위    pitch -
