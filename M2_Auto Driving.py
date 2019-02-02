@@ -9,8 +9,8 @@ import cv2
 ser = serial.Serial('COM9',115200)
 print("connected to: " + ser.portstr)
 
-ser.write(b'AT+COND43639DE43EE')
-print("connected to: AIR0020")
+ser.write(b'AT+COND43639D8898D')
+print("connected to: AIR0012")
 
 HEAD1 = 36 # ->'$'
 HEAD2 = 60 # 60 '<'  62 '>'
@@ -31,8 +31,8 @@ while True:
     if key=='q':
         THROTTLE=THROTTLE-250
     elif key=='c':
-        ser.write(b'AT+COND43639DE43EE')
-        print("connected to: AIR0020")
+        ser.write(b'AT+COND43639D8898D')
+        print("connected to: AIR0012")
     elif key=='w':
     	THROTTLE=THROTTLE+30
     elif key == 's':

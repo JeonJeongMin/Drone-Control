@@ -33,7 +33,7 @@ while True:
         THROTTLE=THROTTLE-250
     elif key=='c':
         ser.write(b'AT+COND43639D8898D')
-        print("connected to: AIR0020")
+        print("connected to: AIR0012")
     elif key=='w':
     	THROTTLE=THROTTLE+30
     elif key == 's':
