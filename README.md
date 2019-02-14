@@ -10,7 +10,8 @@
  ### Drone 내부소스
 
  #### Cortex-M4(Drone.cpp)
-  - PID제어를 통한 Motor의 Throttle제어
+  - 블루투스 통신을 통해 들어온 외부의 비행정보 읽음
+  - PID제어를 통한 각 4개의 Motor제어
   - Mbed.com 에서 제공하는 Compiler로 컴파일 후 생성된 파일을 USB로 드론에 넣음
 
  ### Drone 외부소스
